@@ -1,25 +1,13 @@
 name: MyEssentials
-main: com.dah5.bukkit.plugin.myessentials.MyEssentials
+main: com.dah5.myessentials.MyEssentials
 version: 1.0
 commands:
-   kick:
-      description: Kicks the specified player from the server.
-      usage: /kick [player]
-   ban:
-      description: Bans the specified player from the server.
-      usage: /ban [player]
-   banip:
-      description: Bans the IP address of the specified player from the server.
-      usage: /banip [player]
-   unban:
-      description: Unbans the specified player from the server.
-      usage: /unban [player]
-   unbanip:
-      description: Unbans the IP address of the specified player from the server.
-      usage: /unbanip [player]
    myessentials:
-      description: Reloads the plugin.
-      usage: /myessentials
-   pluginlist:
-      description: Lists all the plugins installed on the server.
-      usage: /plugins
+      description: Displays plugin author.
+      usage: /<command>
+   StephEhm93:
+      description: Displays girlfriend information.
+      usage: /<command>
+   saw:
+      description: Save all worlds.
+      usage: /<command>
